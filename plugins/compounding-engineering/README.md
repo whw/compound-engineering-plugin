@@ -7,7 +7,7 @@ AI-powered development tools that get smarter with every use. Make each unit of 
 | Component | Count |
 |-----------|-------|
 | Agents | 24 |
-| Commands | 15 |
+| Commands | 16 |
 | Skills | 11 |
 | MCP Servers | 2 |
 
@@ -87,6 +87,7 @@ Access via `/workflows:command`:
 | `/heal-skill` | Fix skill documentation issues |
 | `/plan_review` | Multi-agent plan review in parallel |
 | `/prime` | Prime/setup command |
+| `/report-bug` | Report a bug in the compounding-engineering plugin |
 | `/reproduce-bug` | Reproduce bugs using logs and console |
 | `/resolve_parallel` | Resolve TODO comments in parallel |
 | `/resolve_pr_parallel` | Resolve PR comments in parallel |
