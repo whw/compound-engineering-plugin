@@ -106,3 +106,7 @@ Code follows DHH style when:
 - Tests use Minitest with fixtures
 - Turbo/Stimulus for interactivity (no heavy JS frameworks)
 </success_criteria>
+
+<credits>
+Based on [The Unofficial 37signals/DHH Rails Style Guide](https://gist.github.com/marckohlbrugge/d363fb90c89f71bd0c816d24d7642aca) by [Marc Köhlbrugge](https://x.com/marckohlbrugge), generated through deep analysis of the Fizzy codebase.
+</credits>
