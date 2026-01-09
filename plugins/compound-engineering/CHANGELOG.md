@@ -5,6 +5,18 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.23.2+fork.1] - 2026-01-09
+
+### Added (fork-specific)
+
+- **`/sync-compound-engineering-plugin` command** - Sync whw fork with upstream Every compound-engineering-plugin repo. Fetches from upstream, shows pending commits, and merges upstream/main. Supports `--dry-run` to preview without merging.
+
+### Summary
+
+- 27 agents, 22 commands, 13 skills, 2 MCP servers
+
+---
+
 ## [2.23.2] - 2026-01-09
 
 ### Changed

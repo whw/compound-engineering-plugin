@@ -1,0 +1,6 @@
+{
+  "enabledPlugins": {
+    "compound-engineering@every-marketplace": false,
+    "compound-engineering@whw-marketplace": true
+  }
+}

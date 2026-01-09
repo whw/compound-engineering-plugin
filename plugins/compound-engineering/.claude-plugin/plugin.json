@@ -1,10 +1,10 @@
 {
   "name": "compound-engineering",
-  "version": "2.23.1",
-  "description": "AI-powered development tools. 27 agents, 21 commands, 13 skills, 2 MCP servers for code review, research, design, and workflow automation.",
+  "version": "2.23.2+fork.1",
+  "description": "AI-powered development tools. 27 agents, 22 commands, 13 skills, 2 MCP servers for code review, research, design, and workflow automation.",
   "author": {
-    "name": "Kieran Klaassen",
-    "email": "kieran@every.to",
+    "name": "Willie",
+    "email": "willie@every.to",
     "url": "https://github.com/kieranklaassen"
   },
   "homepage": "https://every.to/source-code/my-ai-had-already-fixed-the-code-before-i-saw-it",
