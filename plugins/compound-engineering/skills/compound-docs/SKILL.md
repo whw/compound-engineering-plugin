@@ -82,12 +82,16 @@ Where should this rule live?
 
 **Options (arrow key selection):**
 
+**IMPORTANT: Always show ALL 4 options.** Move "(Recommended)" label based on signal, but never hide options.
+
 | Option | Label | Description |
 |--------|-------|-------------|
-| 1 | Team (Recommended) | Shared with team via `.claude/rules/` |
+| 1 | Team | Shared with team via `.claude/rules/` |
 | 2 | Personal | Just you, this project via `.claude/local/rules/` |
 | 3 | Global | All your projects via `~/.claude/rules/` |
 | 4 | Skip | Don't save this learning |
+
+Add "(Recommended)" suffix to the most appropriate option based on the learning type, but always present all 4 choices.
 
 **Category and filename determined by Claude:**
 - Analyze the learning content

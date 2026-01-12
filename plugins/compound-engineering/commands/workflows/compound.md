@@ -66,6 +66,8 @@ Where should this rule live?
 ○ Skip - Don't save this learning
 ```
 
+**IMPORTANT:** Always show ALL 4 options. The "(Recommended)" label moves based on learning type, but all choices must be presented.
+
 **Category and filename determined automatically** by Claude based on content. User only chooses scope.
 
 ### Phase 3: Missed Anything?
