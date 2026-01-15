@@ -43,6 +43,22 @@ See the `agent-browser` skill for detailed usage.
 
 ## Main Tasks
 
+### 0. Ask Browser Mode
+
+<ask_browser_mode>
+
+Before starting tests, ask user if they want to watch the browser:
+
+Use AskUserQuestion with:
+- Question: "Do you want to watch the browser tests run?"
+- Options:
+  1. **Headed (watch)** - Opens visible browser window so you can see tests run
+  2. **Headless (faster)** - Runs in background, faster but invisible
+
+Store the choice and use `--headed` flag when user selects "Headed".
+
+</ask_browser_mode>
+
 ### 1. Determine Test Scope
 
 <test_target> $ARGUMENTS </test_target>

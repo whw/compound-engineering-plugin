@@ -5,6 +5,40 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.25.0] - 2026-01-14
+
+### Added
+
+- **`agent-browser` skill** - Browser automation using Vercel's agent-browser CLI
+  - Navigate, click, fill forms, take screenshots
+  - Uses ref-based element selection (simpler than Playwright)
+  - Works in headed or headless mode
+
+### Changed
+
+- **Replaced Playwright MCP with agent-browser** - Simpler browser automation across all browser-related features:
+  - `/test-browser` command - Now uses agent-browser CLI with headed/headless mode option
+  - `/feature-video` command - Uses agent-browser for screenshots
+  - `design-iterator` agent - Browser automation via agent-browser
+  - `design-implementation-reviewer` agent - Screenshot comparison
+  - `figma-design-sync` agent - Design verification
+  - `bug-reproduction-validator` agent - Bug reproduction
+  - `/review` workflow - Screenshot capabilities
+  - `/work` workflow - Browser testing
+
+- **`/test-browser` command** - Added "Step 0" to ask user if they want headed (visible) or headless browser mode
+
+### Removed
+
+- **Playwright MCP server** - Replaced by agent-browser CLI (simpler, no MCP overhead)
+- **`/playwright-test` command** - Renamed to `/test-browser`
+
+### Summary
+
+- 27 agents, 20 commands, 14 skills, 1 MCP server
+
+---
+
 ## [2.23.2] - 2026-01-09
 
 ### Changed
