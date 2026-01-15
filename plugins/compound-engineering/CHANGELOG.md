@@ -5,6 +5,19 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.26.1] - 2026-01-14
+
+### Changed
+
+- **`best-practices-researcher` agent** - Now checks skills before going online
+  - Phase 1: Discovers and reads relevant SKILL.md files from plugin, global, and project directories
+  - Phase 2: Only goes online for additional best practices if skills don't provide enough coverage
+  - Phase 3: Synthesizes all findings with clear source attribution (skill-based > official docs > community)
+  - Skill mappings: Rails → dhh-rails-style, Frontend → frontend-design, AI → agent-native-architecture, etc.
+  - Prioritizes curated skill knowledge over external sources for trivial/common patterns
+
+---
+
 ## [2.26.0] - 2026-01-14
 
 ### Added
