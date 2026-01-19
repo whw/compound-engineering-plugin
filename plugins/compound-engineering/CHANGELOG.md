@@ -5,6 +5,14 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.26.5+fork.6] - 2026-01-19
+
+### Removed
+
+- **Compound Engineered badge** - Removed badge and checklist item from `/workflows:work` PR template
+
+---
+
 ## [2.26.5+fork.5] - 2026-01-19
 
 ### Breaking Changes
