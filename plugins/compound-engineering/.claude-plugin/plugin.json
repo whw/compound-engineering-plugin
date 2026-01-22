@@ -1,7 +1,7 @@
 {
   "name": "exponential-engineering",
-  "version": "2.26.5+fork.8",
-  "description": "AI-powered development tools. 21 agents, 24 commands, 13 skills, 1 MCP server for code review, research, design, and workflow automation.",
+  "version": "2.26.5+fork.9",
+  "description": "AI-powered development tools. 21 agents, 24 commands, 11 skills, 1 MCP server for code review, research, design, and workflow automation.",
   "author": {
     "name": "Willie",
     "email": "willie@every.to",

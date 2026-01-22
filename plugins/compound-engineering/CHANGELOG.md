@@ -5,6 +5,20 @@ All notable changes to the compound-engineering plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.26.5+fork.9] - 2026-01-22
+
+### Removed
+
+- **`dhh-rails-style` skill** - Removed named persona skill (prefer generic patterns over persona-based guidance)
+- **`andrew-kane-gem-writer` skill** - Removed named persona skill
+
+### Changed
+
+- Updated `best-practices-researcher` agent to remove references to removed skills
+- Updated `deepen-plan` command examples to use generic skills
+
+---
+
 ## [2.26.5+fork.8] - 2026-01-22
 
 ### Added
